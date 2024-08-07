@@ -19,6 +19,7 @@ Steps:
 - [x] Write down the functionalities
 - [x] Code
 - [x] Test
+- [x] Have fun!
 
 ## Pseudo-code & Comments
 ### Comments
