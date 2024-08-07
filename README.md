@@ -9,16 +9,16 @@ Steps:
 - go to next task.
 
 ## Breakdown requirements
-- [ ] Program will compare the highest score between to randomly chosen elements.
-- [ ] If user guess was correct, the score will be increase by 1.
-- [ ] If user guess wasn't correct, the game end and the user will see final score.
+- [x] Program will compare the highest score between to randomly chosen elements.
+- [x] If user guess was correct, the score will be increase by 1.
+- [x] If user guess wasn't correct, the game end and the user will see final score.
 
 ## To Do's
-- [ ] Prepare the flow chart
-- [ ] Prepare comments or pseudo-code
-- [ ] Write down the functionalities
-- [ ] Code
-- [ ] Test
+- [x] Prepare the flow chart
+- [x] Prepare comments or pseudo-code
+- [x] Write down the functionalities
+- [x] Code
+- [x] Test
 
 ## Pseudo-code & Comments
 ### Comments
