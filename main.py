@@ -3,10 +3,10 @@ from art import logo, vs
 from game_data import data
 
 
-def items_set():
+def items_set(item):
     """Function will return two different items from the game directory"""
     new_set = []
-    item_a = random.choice(data)
+    item_a = item
     new_set.append(item_a)
     item_b = random.choice(data)
     while item_a == item_b:
@@ -26,9 +26,11 @@ def higher_lower(items):
 def higher_lower_game():
     # Set up starting score
     score = 0
+    # Random choose the first item
+    first_item = random.choice(data)
     while True:
         # Get the items to compare from data directory
-        items = items_set()
+        items = items_set(first_item)
         # Check the higher count of followers
         more_followers = higher_lower(items)
         # Testing code
@@ -45,6 +47,8 @@ def higher_lower_game():
         answer = input("Who has nore followers? Type 'A' or 'B: ")
         if answer.lower() == more_followers:
             score += 1
+            if more_followers == "b":
+                first_item = items[1]
             print(f"You're right! Current Score: {score}.")
         else:
             print(f"Sorry, that's wrong. Final Score: {score}.")

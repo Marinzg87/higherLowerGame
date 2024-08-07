@@ -12,6 +12,7 @@ Steps:
 - [x] Program will compare the highest score between to randomly chosen elements.
 - [x] If user guess was correct, the score will be increase by 1.
 - [x] If user guess wasn't correct, the game end and the user will see final score.
+- [x] Program should take the higher item to the next stage, and compare it with another.
 
 ## To Do's
 - [x] Prepare the flow chart
